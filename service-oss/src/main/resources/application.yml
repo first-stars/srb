@@ -1,0 +1,23 @@
+server:
+  port: 8130
+
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: service-oss
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 114.55.9.31:8848 # nacos服务地址
+
+
+
+aliyun:
+  oss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    keyId: LTAI5t8A7WvsizBCpPk61gpA
+    keySecret: FRfgLyKa5mgRcSqyXfjAx2ySyBQLUk
+    bucketName: srb-w-3
